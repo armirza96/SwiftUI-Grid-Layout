@@ -7,8 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		96B7EFD525B75552002D2DC8 /* StatusBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96B7EFD425B75552002D2DC8 /* StatusBarController.swift */; };
-		96B7EFD625B75552002D2DC8 /* StatusBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96B7EFD425B75552002D2DC8 /* StatusBarController.swift */; };
+		96B7EFDC25B75552002D2DC8 /* Shared in Resources */ = {isa = PBXBuildFile; fileRef = 96B7EFDB25B75552002D2DC8 /* Shared */; };
+		96B7EFDD25B75552002D2DC8 /* Shared in Resources */ = {isa = PBXBuildFile; fileRef = 96B7EFDB25B75552002D2DC8 /* Shared */; };
+		96B7EFE325B75552002D2DC8 /* StatusBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96B7EFE225B75552002D2DC8 /* StatusBarController.swift */; };
+		96B7EFE425B75552002D2DC8 /* StatusBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96B7EFE225B75552002D2DC8 /* StatusBarController.swift */; };
 		96D67F0725AD34AA000AC679 /* Tests_iOS.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96D67F0625AD34AA000AC679 /* Tests_iOS.swift */; };
 		96D67F1225AD34AA000AC679 /* Tests_macOS.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96D67F1125AD34AA000AC679 /* Tests_macOS.swift */; };
 		96D67F1425AD34AA000AC679 /* RunKeeperTestApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96D67EEB25AD34A7000AC679 /* RunKeeperTestApp.swift */; };
@@ -37,7 +39,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		96B7EFD425B75552002D2DC8 /* StatusBarController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = StatusBarController.swift; path = ../../../.Trash/StatusBarController.swift; sourceTree = "<group>"; };
+		96B7EFDB25B75552002D2DC8 /* Shared */ = {isa = PBXFileReference; lastKnownFileType = folder; name = Shared; sourceTree = "<group>"; };
+		96B7EFE225B75552002D2DC8 /* StatusBarController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StatusBarController.swift; sourceTree = "<group>"; };
 		96D67EEB25AD34A7000AC679 /* RunKeeperTestApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RunKeeperTestApp.swift; sourceTree = "<group>"; };
 		96D67EEC25AD34A7000AC679 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		96D67EED25AD34AA000AC679 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -101,10 +104,11 @@
 		96D67EEA25AD34A7000AC679 /* Shared */ = {
 			isa = PBXGroup;
 			children = (
-				96B7EFD425B75552002D2DC8 /* StatusBarController.swift */,
+				96B7EFDB25B75552002D2DC8 /* Shared */,
 				96D67EEB25AD34A7000AC679 /* RunKeeperTestApp.swift */,
 				96D67EEC25AD34A7000AC679 /* ContentView.swift */,
 				96D67EED25AD34AA000AC679 /* Assets.xcassets */,
+				96B7EFE225B75552002D2DC8 /* StatusBarController.swift */,
 			);
 			path = Shared;
 			sourceTree = "<group>";
@@ -280,6 +284,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				96D67F1825AD34AA000AC679 /* Assets.xcassets in Resources */,
+				96B7EFDC25B75552002D2DC8 /* Shared in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -288,6 +293,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				96D67F1925AD34AA000AC679 /* Assets.xcassets in Resources */,
+				96B7EFDD25B75552002D2DC8 /* Shared in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -312,8 +318,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				96B7EFE325B75552002D2DC8 /* StatusBarController.swift in Sources */,
 				96D67F1625AD34AA000AC679 /* ContentView.swift in Sources */,
-				96B7EFD525B75552002D2DC8 /* StatusBarController.swift in Sources */,
 				96D67F1425AD34AA000AC679 /* RunKeeperTestApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -322,8 +328,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				96B7EFE425B75552002D2DC8 /* StatusBarController.swift in Sources */,
 				96D67F1725AD34AA000AC679 /* ContentView.swift in Sources */,
-				96B7EFD625B75552002D2DC8 /* StatusBarController.swift in Sources */,
 				96D67F1525AD34AA000AC679 /* RunKeeperTestApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
